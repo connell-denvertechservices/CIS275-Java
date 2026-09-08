@@ -1,0 +1,13 @@
+# Eclipse workspace metadata (local IDE state, not project source)
+.metadata/
+
+# Compiled class files
+bin/
+*.class
+
+# Eclipse settings that are machine-specific (keep .project/.classpath if you want shared config)
+.settings/
+
+# OS junk
+.DS_Store
+Thumbs.db
