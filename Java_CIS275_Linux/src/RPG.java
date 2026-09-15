@@ -7,7 +7,7 @@ public class RPG {
         int lineage, role;
 
         //consts for hero's lineage and role
-        final int ELF=1,ORD=2,HUMAN=3;//lineage
+        final int ELF=1,ORC=2,HUMAN=3;//lineage
         final int FIGHTER=1,MAGE=2, ROGUE=3;//role
 
         Scanner scr = new Scanner(System.in);
@@ -25,10 +25,30 @@ public class RPG {
         //ask the user's lineage
         System.out.println("Enter your lineage: \n1-ELF, 2-ORC, 3-HUMAN");
         lineage = scr.nextInt();
+
+        if (lineage == ELF) {
+            //say something about elves
+        } else if (lineage == ORC) {
+            //orcs, comments
+        } else if (lineage == HUMAN) {
+            //say something about us
+        } else {
+            //error
+        }
         //placeholder for evaluting the chouce
         //ask the user's role
         System.out.println("Enter your hero's role: \1-FIGHTER, 2-MAGE, 3-ROGUE");
         role = scr.nextInt();
+        if (role == FIGHTER) {
+            //comments
+        } else if (role == MAGE) {
+            //comments
+        } else if (role ==ROGUE) {
+            //comments
+
+        } else {
+            //error
+        }
 
     }
 } // end main
