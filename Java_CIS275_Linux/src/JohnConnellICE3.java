@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class JohnConnellICE3 {
+public class JohnConnell {
 
 	public static void main(String[] args) {
 		//1. Declare the variables 
