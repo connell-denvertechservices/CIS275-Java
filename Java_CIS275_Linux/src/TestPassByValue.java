@@ -1,7 +1,8 @@
 
 public class TestPassByValue {
 
-	public static void swap(int num1, int num2) {
+	public static void swap(int num1, int num2
+			) {
 		System.out.println("Inside the swap method");
 		System.out.println("Before swapping n1 is " + num1 + " and n2 is " + num2);
 
